@@ -12,7 +12,6 @@ import Footer from "./components/Footer/Footer";
 import BackToTop from "./components/BackToTop";
 import GitHubStats from "./components/GitHubStats/GitHubStats";
 import Resume from "./components/Resume/Resume";
-import ParticlesBackground from "./components/ParticlesBackground/ParticlesBackground";
 
 
 function App() {
@@ -35,7 +34,7 @@ function App() {
 
   return (
     <>
-      <ParticlesBackground />
+      
       <Navbar />
       <Hero />
       <About />
